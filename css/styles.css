@@ -5,5 +5,36 @@
 }
 h1{
 	color:pink;
-	overflow: auto;
+	/*overflow: auto;*/
+}
+.botton{
+	display:flex;
+	/*background:#000;*/
+	min-height: 50px;
+	align-items: center;
+	position: fixed;
+	width:100%;
+	top:448px;
+	left:200px;
+	/*overflow: hidden;*/
+	break-after: auto;
+}
+.mainhead{
+	display:flex;
+	/*background:#000;*/
+	min-height: 50px;
+	align-items: center;
+	position: fixed;
+	width:100%;
+	top:500px;
+	left:200px;
+	overflow: hidden;
+	break-after: auto;
+}
+.full-screen{
+	height: calc(100vh - 50px);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-image:url(../image/ßß);
 }
